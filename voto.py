@@ -23,6 +23,9 @@ class Libretto:
         punteggi = [v.punteggio for v in self._voti]
         return sum(punteggi)/len(punteggi)
 
+    def findByPunti(self, punteggio,lode):
+        pass
+
 
 #tipicamente si fa:
 # se il programma viene eseguito direttamente
